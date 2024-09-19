@@ -9,6 +9,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 
 import Bg_gradient from './assets/wave.jpg'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <Skills/>
       <WorkExperience/>
       <About/>
+      <Projects/>
       <Contact/>
       <Footer/>
     </div>

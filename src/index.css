@@ -34,4 +34,8 @@
   .input-box{
     @apply bg-gradient-to-br from-blue-950 to-slate-900 rounded border border-blue-800/40 px-4 py-3 placeholder:text-slate-400 placeholder:text-sm mb-5 focus:outline-none focus:border-cyan-500 focus:border-2;
   }
+
+  .warning-btn {
+    @apply h-9 md:h-11 bg-yellow-300 text-black text-sm px-6 rounded border border-yellow-300 hover:bg-transparent hover:text-yellow-300;
+  }
 }

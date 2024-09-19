@@ -132,3 +132,59 @@ export const ABOUT_ME_DATA = {
         certificationsEarned: 2,
     },
 }
+
+
+import img from '../assets/profile.jpg'
+
+export const PROJECT = [
+  {
+    "key" : 1,
+    "title": "Reace E-coomerce",
+    "imageSrc": img,
+    "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
+    "languages": ["Java", "PHP", "JS"],
+    "demo": "https://www.facebook.com",
+    "soerce": "gethub"
+
+  },
+  {
+    "key" : 2,
+    "title": "Reace E-coomerce",
+    "imageSrc": img,
+    "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
+    "languages": ["Java", "PHP", "JS"],
+    "demo": "https://www.facebook.com",
+    "soerce": "gethub"
+
+  },
+  {
+    "key" : 3,
+    "title": "Reace E-coomerce",
+    "imageSrc": img,
+    "description": "This is a project made with complete , CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
+    "languages": ["Java", "PHP", "JS"],
+    "demo": "https://www.facebook.com",
+    "soerce": "gethub"
+
+  },
+  {
+    "key" : 4,
+    "title": "Reace E-coomerce",
+    "imageSrc": img,
+    "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
+    "languages": ["Java", "PHP", "JS"],
+    "demo": "https://www.facebook.com",
+    "soerce": "gethub"
+
+  },
+  {
+    "key" : 5,
+    "title": "Reace E-coomerce",
+    "imageSrc": img,
+    "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
+    "languages": ["Java", "PHP", "JS"],
+    "demo": "https://www.facebook.com",
+    "soerce": "gethub"
+
+  },
+]
