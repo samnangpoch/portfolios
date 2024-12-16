@@ -13,16 +13,17 @@ import { FaPhp } from "react-icons/fa";
 export const PROFILE_DATA = {
     name: "Sam Nang",
     tagline: "Passionate React JS developer with 1 year of experience, dedicated to crafting immersive web expert",
-    jobtitile: "Full Stack Developer",
+    jobtitle: "Front-End Developer",
     location: "Cambodia",
     yearOfExperience: 2,
     skills:[
         "React JS",
-        "Java",
-        "PHP",
+        "Next JS",
+        "JavaScript",
+        "Tailwind CSS",
     ],
     email: "samnangheang6@gmail.com",
-    phone: "949594040",
+    phone: "096 26 29 446 || 071 49 08 851",
     website: "yyy",
 };
 
@@ -47,7 +48,7 @@ export const SKILLS = [
         id: "03",
         icon: FaJava,
          
-        title: "Java",
+        title: "Next js",
         comment: `1Javascript is my bread and butter`,
 
     },
@@ -72,7 +73,7 @@ export const SKILLS = [
         icon: FaPhp,
          
         title: "PHP",
-        comment: `1Javascript is my bread and butter`,
+        comment: `1Javascript is my bread and better`,
 
     },
 ];
@@ -80,32 +81,24 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
     {
         id: "01",
-        company: "Tech Solutions Inc.",
-        position: "Senior Frontend Developer",
-        duration: "2020-2022",
+        company: "France AJ Group",
+        position: "Data Entry",
+        duration: "2022-2023",
         description:
         "fkdfjk dkfjdkjfkd kdfjkdjfkdjf dkjfkdjfkd kdfjdkjfkdjfkdjfk HTML is the foundation of every web project I work on. I have a deep understanding of its structure and semantics, ensuring my web applications are well- structured and accessible"
     },
     {
         id: "02",
-        company: "Solutions Inc.",
-        position: "Senior Frontend Developer",
-        duration: "2010-2020",
+        company: "France AJ Group",
+        position: "Web Developer",
+        duration: "2022-2023",
         description:
         "fkdfjk dkfjdkjfkd kdfjkdjfkdjf dkjfkdjfkd kdfjdkjfkdjfkdjfk  HTML is the foundation of every web project I work on. I have a deep understanding of its structure and semantics, ensuring my web applications are well- structured and accessible"
     },{
         id: "03",
-        company: "Solutions Inc.",
-        position: "Senior Frontend Developer",
-        duration: "2010-2020",
-        description:
-        "fkdfjk dkfjdkjfkd kdfjkdjfkdjf dkjfkdjfkd kdfjdkjfkdjfkdjfk  HTML is the foundation of every web project I work on. I have a deep understanding of its structure and semantics, ensuring my web applications are well- structured and accessible"
-    },
-    {
-        id: "04",
-        company: "Solutions Inc.",
-        position: "Senior Frontend Developer",
-        duration: "2010-2020",
+        company: "France AJ Group",
+        position: "Front-end Developer",
+        duration: "2023-Now",
         description:
         "fkdfjk dkfjdkjfkd kdfjkdjfkdjf dkjfkdjfkd kdfjdkjfkdjfkdjfk  HTML is the foundation of every web project I work on. I have a deep understanding of its structure and semantics, ensuring my web applications are well- structured and accessible"
     },
@@ -114,21 +107,17 @@ export const WORK_EXPERIENCE = [
 
 export const ABOUT_ME_DATA = {
     introduction: 
-    "Hi, I'm Samnang Heang, an experienced React JS developer passionate about building engaging web applications and solving complex problems with code.",
+    "Hi, I'm Samnang Heang, a frontend developer specializing in React and Next.js. With a Bachelor's degree in Computer Science from the University of Science and Technology and over the past 4 years, I've had the opportunity to work on a variety of projects, ranging from dynamic e-commerce platforms to interactive dashboards. My passion lies in creating engaging web applications that enhance user experiences through thoughtful design and efficient code.",
     background: 
-    "I hold a Bachelor's degree in Computer Science from the University of Science and Technology. Over the past 4 years, I've gained valuable experience in frontend development, working on projects ranging from e-commerce websites to interactive dashboards.",
-    skills: 
-    "I'm proficient in a variety of technologies including React.js, JavaScript, HTML, CSS, and Node.js. I'm also experienced in using version control systems like Git and working with RESTful APIs. ",
-    projects: 
-    "",
+    "I am proficient in a range of technologies, including JavaScript, HTML, CSS, PHP, Laravel Express Js and Node.js, alongside my expertise in React and Next.js. I prioritize adhering to best practices in software development, ensuring that my applications are not only responsive and scalable but also maintainable and user-friendly.",
     interests: 
-    "Outside of coding, I enjoy traveling to new places, capturing moments through photography, and playing guitar. I'm also an avid reader and love exploring new cuisines.",
+    "Outside of development, I love exploring new places, capturing moments through photography, and playing guitar. Reading is a cherished pastime for me, and I'm always eager to discover new cuisines and culinary experiences.",
     careerGoals: 
-    "In the future, I aim to continue honing my skills as a developer, exploring new technologies, and contributing to meaningful projects that make a positive impact on people's lives.",
+    "As I look to the future, I'm committed to continually refining my skills, exploring the latest technologies, and contributing to impactful projects that enhance users' lives. Whether collaborating with innovative teams or embarking on new ventures, I’m excited about the journey ahead and the difference I can make through technology.",
 
     state: {
         yearOfExperience: '2',
-        numberOfProjects: 3,
+        numberOfProjects: "10+",
         certificationsEarned: 2,
     },
 }
@@ -139,17 +128,17 @@ import img from '../assets/profile.jpg'
 export const PROJECT = [
   {
     "key" : 1,
-    "title": "Reace E-coomerce",
+    "title": "E-Commerce",
     "imageSrc": img,
     "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
-    "languages": ["Java", "PHP", "JS"],
+    "languages": ["React JS", "Tailwind CSS", "Node JS", "MongoDB", "Stripe and Razorpay"],
     "demo": "https://www.facebook.com",
     "soerce": "gethub"
 
   },
   {
     "key" : 2,
-    "title": "Reace E-coomerce",
+    "title": "Book Store",
     "imageSrc": img,
     "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
     "languages": ["Java", "PHP", "JS"],
@@ -159,17 +148,17 @@ export const PROJECT = [
   },
   {
     "key" : 3,
-    "title": "Reace E-coomerce",
+    "title": "Doctor Appointment",
     "imageSrc": img,
     "description": "This is a project made with complete , CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
-    "languages": ["Java", "PHP", "JS"],
+    "languages": ["React JS", "Tailwind CSS", "Node JS", "MongoDB", "Stripe and Razorpay"],
     "demo": "https://www.facebook.com",
     "soerce": "gethub"
 
   },
   {
     "key" : 4,
-    "title": "Reace E-coomerce",
+    "title": "E-Learning",
     "imageSrc": img,
     "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
     "languages": ["Java", "PHP", "JS"],
@@ -179,7 +168,17 @@ export const PROJECT = [
   },
   {
     "key" : 5,
-    "title": "Reace E-coomerce",
+    "title": "Spotify Clone",
+    "imageSrc": img,
+    "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
+    "languages": ["Java", "PHP", "JS"],
+    "demo": "https://www.facebook.com",
+    "soerce": "gethub"
+
+  },
+  {
+    "key" : 6,
+    "title": "Blog Website",
     "imageSrc": img,
     "description": "This is a project made with complete React Js. CSS, and Node.js. I'm also experienced in using version control systems like Git and working with",
     "languages": ["Java", "PHP", "JS"],

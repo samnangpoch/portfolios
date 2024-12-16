@@ -4,7 +4,7 @@ import { PROJECT } from "../utils/data"; // Assuming PROJECT is defined correctl
 const Projects = () => {
   return (
     <div className="container mx-auto my-3">
-      <h1 className="text-2xl font-bold text-center mb-5">Projects</h1>
+      <h1 className='text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14'>Projects</h1>
       <div className="flex flex-wrap justify-center">
         {PROJECT.map((data) => (
           <div key={data.id} className="my-3 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-3">
@@ -28,7 +28,7 @@ const Projects = () => {
                         {data.languages?.map((language, index) => (
                     <div
                     key={language + index}
-                    className="text-[11px] bg-blue-800/30 rounded md:text-xs px-3 py-1"
+                    className="text-[11px] bg-blue-800/30 rounded md:text-xs px-3 py-1 mt-2"
                     >
                         {language}
                     </div>

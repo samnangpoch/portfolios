@@ -1,6 +1,6 @@
 import React from 'react'
 import { PROFILE_DATA } from '../utils/data';
-import Profile_pic from '../assets/profile.jpg'
+import Profile_pic from '../assets/profiles.jpg'
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 
 import { ImOpt } from 'react-icons/im';
@@ -14,7 +14,7 @@ const Hero = () => {
   const {
     name,
     tagline,
-    jobTitle,
+    jobtitle,
     yearOfExperience,
     location,
     email,
@@ -24,7 +24,7 @@ const Hero = () => {
     <section className='max-w-screen-xl flex flex-col gap-14 md:flex-row md:items-center pt-16 md:pt-28 pb-20 px-6 mx-auto'
     id='hero'>
         <div className='flex-l text-center md:text-left z-[1]'>
-          <span className='text-xs md:text-sm text-blue-200 font-thin'>A Full Stack Developer</span>
+          <span className='text-xs md:text-sm text-blue-200 font-thin'>A Front-End Developer</span>
 
           <h2 className='text-3xl mt-3 md:text-5xl md:mt-5'>{name} 👋</h2>
 
@@ -40,7 +40,7 @@ const Hero = () => {
 
             <div className='bg-cardbg rounded-md text-center mt-3 p-4'>
               <h5 className='text-sm md:text-base text-white'>{name}</h5>
-              <p className='text-slate-500 text-xs md:font-medium mt-1'>{jobTitle}</p>
+              <p className='text-slate-500 text-xs md:font-medium mt-1'>{jobtitle}</p>
 
               <div className='flex items-center justify-center gap-2 text-slate-500 text-xs mt-1'>
                 <HiOutlineLocationMarker/>
@@ -48,17 +48,19 @@ const Hero = () => {
               </div>
             </div>
 
-            <InfoTile
-              icon = {<FiMail size={20} className='text-sky-400'/>}
-              text={email}
-            />
+            <div className='p-2'>
+                <InfoTile
+                  icon = {<FiMail size={20} className='text-sky-400'/>}
+                  text={email}
+                />
 
-            <InfoTile
-              icon = {<MdOutlineBadge size={20} className='text-sky-400'/>}
-              text={`${yearOfExperience} Years Of Experience`}
-            />
+                <InfoTile
+                  icon = {<MdOutlineBadge size={20} className='text-sky-400'/>}
+                  text={`${yearOfExperience} Years Of Experience`}
+                />
+            </div>
 
-            <div className='flex items-center gap-2 flex-wrap my-3'>
+            <div className='flex items-center gap-2 flex-wrap mb-5'>
               {skills.map((item) => (
                 <div key={item} className='text-[11px] bg-blue-800/30 rounded md:text-xs px-3 py-1'>
                     {item}

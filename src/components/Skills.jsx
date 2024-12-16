@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section className='max-w-screen-xl px-6 mx-auto pb-20' id='skills'>
       <div className='bg-gradient-tobr from-blue-950 to-slate-900 rounded-lg border border-blue-800/40 p-4 md:p-8'>
-        <h5 className='text-xl font-medium mb-5'>Skills</h5>
+        <h5 className='text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14 md:text-left'>Skills</h5>
 
         <div className='grid grid-crols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {SKILLS.map((skill) =>(
